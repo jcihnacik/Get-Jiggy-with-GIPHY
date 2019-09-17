@@ -1,0 +1,61 @@
+.gif-topic {
+    margin-right: 30px;
+    margin-bottom: 25px;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    border-width: 2px;
+    border-color: gray;
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    min-width: 150px;
+    max-width: 200px;
+    letter-spacing: 0.1em;
+  } 
+  
+  .gif-topic:nth-child(4n+4){
+    background-color: green;
+  }
+  
+  .gif-topic:nth-child(4n+3){
+    background-color: yellow;
+  }
+  .gif-topic:nth-child(4n+2)  {
+      background-color: red;
+  }
+  
+  .gif-topic:nth-child(4n+1){
+    background-color: blue;
+  }
+  
+  .container {
+    margin: auto;
+    margin-top: 30px;
+  }
+  
+  #button-container {
+    width: 90%;
+    marin: auto;
+  }
+  
+  #add-topic {
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    
+  }
+  
+  form {
+    margin: auto;
+  }
+  
+  input {
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+  }
